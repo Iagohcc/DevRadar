@@ -1,12 +1,13 @@
 import React from 'react';
+//Toda vez q tiver um html(tag) tem q importar o react
+
 import ReactDOM from 'react-dom';
-import './index.css';
+//React DOM comunicação
+
 import App from './App';
-import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
+//Renderizando o app no root
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//JSX (JavaScript + HTML)
